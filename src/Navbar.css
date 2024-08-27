@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Monsieur La Doulaise");
+
+
+.mainnavdiv {
+  position: sticky;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.navbar {
+  color: #333;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: row;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: black;
+  padding: 0px;
+  font-size: 1.5vw;
+}
+
+.nav-link:hover {
+  color: #FEACC6;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+}
+.dot{
+    margin-right: 10px;
+    color: black;
+    padding: 0px;
+    font-size: 1.5vw;
+}
+
+.div0 {
+  display:flex;
+  align-items: center; /* for no stretch */
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo {
+    width:80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    width:100%;
+  }
+}
+
+.ffont{
+  font-family:Monsieur La Doulaise;
+  font-weight:bolder;
+  font-size:4vw;
+}
+
+.card{
+    background-color: #EFEFEF;
+    background-image: radial-gradient(ellipse at center -20%, rgba(0, 0, 0, 0.15) 0%, transparent 50%);
+    color: black;
+}
+
+
+

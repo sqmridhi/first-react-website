@@ -1,0 +1,162 @@
+.pagesheaddiv{
+  font-weight:bolder;
+  font-size:larger;
+  background-color: white;
+}
+/* hr{
+  
+  border: 0;
+  height: 1px;
+  width: 10%;
+  position: relative;
+  margin: 30px auto;
+  
+  
+  &.center-ball{
+    background: black;
+    
+    &:before{
+      content: "";
+      width: 6px;
+      height: 6px;
+      background: aqua;
+      display: inline-block;
+      border: 2px solid aqua;
+      border-radius:50%;
+      position: absolute;
+      top: -4px;
+      left: 50%;
+      margin: 0 0 0 -3px;
+    }
+  }
+  
+} */
+a { text-decoration: none; }/* // some basic page styles */
+
+
+
+.pagesmaindiv{
+    background-color: #d7d7d7;
+    background-image: radial-gradient(ellipse at center -20%, rgba(0, 0, 0, 0.4) 0%, transparent 50%);
+}
+
+.griditem{
+  color: black;
+  font-size: 1.5vw;
+  background-color: white;
+}
+
+/* .griditem:hover {
+  color: #FEACC6;
+} */
+
+.cardofoutercss {
+  position: relative;
+  width: auto;
+  /* height: 320px; */
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  color:black;
+}
+
+.cardofoutercss::before,
+.cardofoutercss::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: lighter;
+  background-color: rgba(245, 212, 230, 0.365);
+  transition: all 0.5s;
+}
+
+.cardofoutercss::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+}
+
+.cardofoutercss::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+}
+
+.cardofoutercss:hover::before,
+.cardofoutercss:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.cardofoutercss:hover:after {
+  content: "START READING ➤";
+}
+
+/* Input field start */
+html { font-size: 10px; }
+
+/* .datee{
+  font-size: 1.5vw;
+} */
+
+.linkpink:hover{
+  color: #FEACC6;
+}
+.ffont{
+  font-family:Monsieur La Doulaise;
+}
+.fontt{
+  font-family:Monsieur La Doulaise;
+}
+
+.emailbutton{
+  border: none;
+  background-color: #feacc644;
+  font-size: large;
+  padding:5px;
+}
+.emailinput{
+  padding:5px;
+  font-size: large;
+  border: none;
+  background-color: #feacc644;
+  /* border: 1px solid #000000; Add your default border styles here */
+}
+.emailinput:focus,.emailinput:hover,.emailbutton:hover{ 
+  background-color: #feacc698;
+  border: none;
+  outline: none; /* Remove the default outline style (optional) */
+  
+}
+
+@media only screen and (min-width: 768px) {
+  .emailbutton,.emailinput {
+    font-size: 1vw;
+  }
+}
+/* 1vw md  */
+/* .emaildiv{
+  font-size: large;
+} */
+
+
+.emailtext{
+  font-family:Monsieur La Doulaise;
+  font-size: 5vh;
+}
+.toptitle{
+  font-family: 'Amatic SC';
+
+}

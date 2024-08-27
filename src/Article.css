@@ -1,0 +1,12 @@
+.pagesmaindiv{
+    background-color: #d7d7d7;
+    background-image: radial-gradient(ellipse at center -20%, rgba(0, 0, 0, 0.4) 0%, transparent 50%);
+}
+
+.para{
+    word-wrap: break-word;
+    font-family: 'Lora',serif;
+    color: #979797;
+    line-height: 1.825em;
+    font-size: 15px;
+}
